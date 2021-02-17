@@ -1,0 +1,49 @@
+---
+galaxy_info:
+  role_name: java
+  author: geerlingguy and ProfessorManhattan
+  description: Installs Java on almost any platform
+  company: Megabyte Labs
+  license: "license (BSD, MIT)"
+
+  min_ansible_version: 2.4
+
+  platforms:
+    - name: EL
+      versions:
+        - 6
+        - 7
+        - 8
+    - name: Fedora
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - wheezy
+        - jessie
+        - stretch
+        - buster
+    - name: Ubuntu
+      versions:
+        - precise
+        - trusty
+        - xenial
+        - bionic
+        - focal
+    - name: FreeBSD
+      versions:
+        - 10.2
+    - name: Windows
+      versions:
+        - 10
+
+  galaxy_tags:
+    - development
+    - system
+    - web
+    - java
+    - jdk
+    - openjdk
+    - oracle
+
+dependencies: []
